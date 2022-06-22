@@ -1,0 +1,114 @@
+/* this is the header section */
+#header {
+  text-align: left;
+}
+
+.heading {
+  background: linear-gradient(#212121, #222222, #222222);
+}
+
+.first-h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 50px 100px 0 100px;
+  font-size: 5.2rem;
+  line-height: 1;
+}
+
+.first-paragraph {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 100px 0 100px;
+}
+
+.header-image {
+  width: 100%;
+  padding: 65px 100px 100px 50px;
+}
+
+.button {
+ margin: 5px 100px 20px 100px;
+}
+
+.navigation {
+  margin-left: 80px;
+}
+
+.navigation-button {
+  margin-left: 500px;
+}
+
+
+/* contact section */
+.contact-text {
+  color: #fff;
+  text-align: left;
+  padding: 50px 100px;
+  }
+
+  .contact-icons {
+    color: #fff;
+    padding: 0 5px;
+  }
+
+  .contact-brandspar-logo {
+    padding: 20px 0 20px 0;
+  }
+
+  .horizontal-rule{
+    padding-bottom: 20px;
+  }
+
+  .copywright-text{
+      padding: 10px 0 20px 0;
+  }
+
+  .get-in-touch{
+    margin-left:350px;
+  }
+
+  .address-sections{
+    padding: 0 5px 10px 0;
+  }
+
+  /* package section */
+
+
+/* articles and events */
+  #articles-events {
+    background-color: #fff;
+  }
+
+  .articles-events-h1 {
+    text-align: center;
+    padding: 50px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .articles-events-paragraph {
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+  }
+
+  .article-events-row {
+    padding: 30px 30px;
+    }
+
+    .overall-row {
+      margin: 20px 200px
+    }
+
+
+    @media (max-width: 1010px) {
+          #header {
+            text-align: center;
+          }
+          #articles-events{
+            text-align: center;
+          }
+          .get-in-touch {
+            margin-left: 0px;
+          }
+        }
